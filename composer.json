@@ -1,0 +1,21 @@
+{
+    "name": "yaowuhe/composer-car",
+    "description": "This is a demo for build composer packagist.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yaowuhe",
+            "email": "yaowuhe@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape"
+        }
+    }
+}
